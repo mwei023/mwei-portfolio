@@ -113,6 +113,6 @@ export const contact = {
   email: 'petermwei23@gmail.com',
   phone: '+254 704 546 776',
   github: 'https://github.com/mwei023',
-  linkedin: 'https://linkedin.com/in/mwei23',
+  linkedin: 'https://www.linkedin.com/in/mwei23/',
   website: 'https://mwei.co.ke',
 }
