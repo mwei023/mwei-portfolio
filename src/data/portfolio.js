@@ -1,3 +1,5 @@
+import { link } from "framer-motion/client"
+
 export const projects = [
   {
     number: '01',
@@ -27,7 +29,10 @@ export const projects = [
       'A backend service ingesting real-time cryptocurrency data from multiple public APIs with automatic fallback strategies. Handles time-series storage efficiently with connection pooling, indexing, and Pydantic validation throughout.',
     stack: ['Python', 'FastAPI', 'PostgreSQL', 'Pydantic', 'REST'],
     impact: '↗ Multi-source ingestion with structured error handling & fallbacks',
-    links: [{ label: 'GitHub', href: 'https://github.com/mwei023/crypto-market-data-backend' }],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/mwei023/crypto-market-data-backend' },
+      { label: 'Live', href: 'https://cryptosentiment.api.mwei.co.ke' },
+    ],
   },
   {
     number: '04',
