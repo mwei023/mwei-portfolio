@@ -6,7 +6,6 @@ import PhilosophySection from './components/sections/Philosophy'
 import Skills from './components/sections/Skills'
 import Journey from './components/sections/Journey'
 import Contact from './components/sections/Contact'
-import MissingSection from './components/sections/MissingSection'
 
 export default function App() {
   return (
