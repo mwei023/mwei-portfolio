@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'mark-test/**'
+      - 'auto-fix/**'
   pull_request:
 
 permissions:
